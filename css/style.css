@@ -1,0 +1,59 @@
+body{
+	font-size: 14px;
+	color: #000;
+}
+.top-area {
+    background: #333;
+    padding: 30px 0;
+}
+.menu-areaa ul li a {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.menu-areaa ul li {
+    list-style: none;
+}
+.menu-little{
+	display: none;
+}
+.feature-img img {
+    width: 100%;
+}
+.feature-img2 img {
+    width: 100%;
+}
+
+/*resposinves*/
+@media only screen and (max-width: 800px) {
+.menu-little {
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 23px;
+    font-size: 30px;
+    color: #fff;
+    top: -37px;
+    cursor: pointer;
+    z-index: 1;
+}
+.menu-areaa, .btn-area{
+	display: none;
+}
+.menu-areaa ul li a {
+    display: block;
+    text-align: left;
+}
+body{
+	background: red
+}
+.logo-area img {
+    width: 120px;
+}
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {}
